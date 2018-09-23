@@ -3,4 +3,6 @@ Node App for Placing Burger Orders.
 
 
 
-![Image description](file:///Users/garnetdianthus/Dropbox/Screenshots/dudewheresmyburger.png)
+![Dude, Where's My Burger the app]
+
+(file:///Users/garnetdianthus/Dropbox/Screenshots/dudewheresmyburger.png)
