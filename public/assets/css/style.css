@@ -1,0 +1,94 @@
+body {
+    background-color: goldenrod;
+    background-image: url(burgerDT.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  li {
+   
+    color: goldenrod;
+    font-size: 12px;
+    padding-left: 0px;
+    list-style-type: none;
+    /* background: #faebd7; */
+  }
+  
+  ul {
+  font-family: arial;
+  list-style-type: none;
+  
+  
+  }
+  
+  label {
+    font-weight: bold;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 5px;
+    margin-top: 15%;
+    margin-left: 40%;
+  }
+  
+  h1 {
+  color: goldenrod;
+  font-weight: bold;
+  margin-left: 35%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  
+  h2 {
+    color: goldenrod;
+    margin-left: 5%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+  
+   button {
+    color: gray;
+    margin-top: 20px;
+    margin-left: 14%;
+    padding: 5px;
+    background-color: white;
+    border-color: white;
+    
+    }
+  
+    footer {
+      font-family: arial;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      font-size: 12px;
+      color: white;
+      text-align: center;
+  
+    }
+  
+    #uneaten {
+      background-color: white;
+      width: 25%;
+      margin-left: 5%;
+  
+  
+    }
+  
+    #devoured {
+      background-color: white;
+      width: 20%;
+      margin-left: 70%;
+     
+    }
+  
+    #dvd {
+      margin-left: 70%;
+    }
+  
+  

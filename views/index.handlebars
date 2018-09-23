@@ -1,0 +1,45 @@
+
+<h1>"Dude, Where's my Burger?"</h1>
+
+<h2>"Let me have a......"</h2>
+
+{{!-- not sleepy --}}
+
+<div id="uneaten">
+<ul>
+  {{#each cats}}
+    {{#if sleepy}}
+      {{> cats/cat-block sleep=false}}
+    {{/if}}
+  {{/each}}
+</ul>
+</div>
+
+
+<h2 id="dvd" >Devoured!</h2>  
+
+{{!-- sleepy --}}
+
+<div  id="devoured" style="float right">
+<ul>
+  {{#each cats}}
+    {{#unless sleepy}}
+      {{> cats/cat-block sleep=true}}
+    {{/unless}}
+  {{/each}}
+</ul>
+</div>
+
+
+{{!-- <h2>Add a Cat</h2> --}}
+<form class="create-form">
+
+  <div class="form-group">
+    <img class="img" src=""> 
+    <label for="ca">Place Order Here:</label>
+    <input type="text" id="ca" name="name">
+    <input type="radio" name="sleepy" value="1" checked><br>
+    <button type="submit" class="lg">Add A Burger</button>
+  </div>
+
+</form>
