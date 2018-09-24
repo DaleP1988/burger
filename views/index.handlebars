@@ -1,37 +1,29 @@
 
 <h1>"Dude, Where's my Burger?"</h1>
 
-<h2>"Let me have a......"</h2>
-
 {{!-- not sleepy --}}
 
-<div id="uneaten">
-<ul>
+<div class="container">
+<div class="row">
+<div class="col-md-4" id="uneaten">
+
+<h2>"Let me have a......"</h2>
+<div class="form-section">
+<ol class="burgerList">
   {{#each cats}}
     {{#if sleepy}}
       {{> cats/cat-block sleep=false}}
     {{/if}}
   {{/each}}
-</ul>
+</ol>   
+</div>
 </div>
 
 
-<h2 id="dvd" >Devoured!</h2>  
-
-{{!-- sleepy --}}
-
-<div  id="devoured" style="float right">
-<ul>
-  {{#each cats}}
-    {{#unless sleepy}}
-      {{> cats/cat-block sleep=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
-</div>
+{{!-- decide on the numbers  --}}
 
 
-{{!-- <h2>Add a Cat</h2> --}}
+<div class="col-md-4" style="padding-top: 300px" id="middle">
 <form class="create-form">
 
   <div class="form-group">
@@ -43,3 +35,24 @@
   </div>
 
 </form>
+</div>
+
+
+{{!-- sleepy --}}
+
+<div class="col-md-4" id="devoured">
+<h2 id="dvd" >Devoured!</h2> 
+<div class="form-section">
+<ol>
+  {{#each cats}}
+    {{#unless sleepy}}
+      {{> cats/cat-block sleep=true}}
+    {{/unless}}
+  {{/each}}
+</ol>
+</div> 
+</div>
+</div>
+</div>
+
+
