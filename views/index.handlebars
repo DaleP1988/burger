@@ -7,7 +7,7 @@
 <div class="row">
 <div class="col-md-4" id="uneaten">
 
-<h2>"Let me have a......"</h2>
+<h4>"Let me have a......"</h4>
 <div class="form-section">
 <ol class="burgerList">
   {{#each cats}}
@@ -29,9 +29,9 @@
   <div class="form-group">
     <img class="img" src=""> 
     <label for="ca">Place Order Here:</label>
-    <input type="text" id="ca" name="name" autocomplete="off">
+    <input type="text" id="ca" name="name" autocomplete="off" style="width: 100%; border: solid 2px goldenrod">
     <input style="display: none" type="radio" name="sleepy" value="1" checked><br>
-    <button type="submit" class="lg">Add A Burger</button>
+    <button type="submit" class="md" style="margin-top: 30px; font-size: 12px;">Add A Burger</button>
   </div>
 
 </form>
@@ -41,7 +41,7 @@
 {{!-- sleepy --}}
 
 <div class="col-md-4" id="devoured">
-<h2 id="dvd" >Devoured!</h2> 
+<h4 id="dvd" >Devoured!</h4> 
 <div class="form-section">
 <ol>
   {{#each cats}}

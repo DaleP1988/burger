@@ -10,6 +10,8 @@ body {
     color: goldenrod;
     font-size: 12px;
     padding-left: 0px;
+    padding-top: 3px;
+    padding-bottom: 2px;
     /* list-style-type: none; */
     /* background: #faebd7; */
   }
@@ -35,21 +37,22 @@ body {
   
   .form-group {
     margin-bottom: 5px;
-    /* margin-top: 15%;
-    margin-left: 40%; */
+    margin-top: 15%;
+   
   }
   
   h1 {
-  color: goldenrod;
+  color: goldenrod ! important;
+  margin-left: 30%;
   font-weight: bold;
-  /* margin-left: 35%; */
+  margin-bottom: 2% ! important;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
   }
   
-  h2 {
-    color: goldenrod;
-    /* margin-left: 5%; */
+  h4 {
+    color: goldenrod  ! important;
+    margin-top: 15%;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -57,12 +60,12 @@ body {
   
    button {
     color: gray;
+    font-size: 12px;
     margin-top: 20px;
-    margin-left: 14%;
+    margin-left: 18%;
     padding: 5px;
     background-color: white;
     border-width: 0;
-    
     }
   
     footer {
@@ -83,40 +86,12 @@ body {
       padding: 2px;
     }
   
-    #uneaten {
-      /* background-color: white; */
-      /* width: 25%;
-      margin-left: 5%; */
-  
-  
-    }
 
-    /* .col-md-4 {
-
-     margin-bottom: -9999px;
-     padding-bottom: 9999px;
-      
-    } */
-
-    /* .container {
-
-    min-height: 100%;
-    overflow: hidden;
-    } */
     .form-section {
 
       background-color: white;
+      width: 300px;
+      border: solid 2px goldenrod;
     }
   
-    #devoured {
-      /* background-color: white; */
-      /* width: 20%;
-      margin-left: 70%; */
-
-    }
-  
-    /* #dvd {
-      margin-left: 70%;
-    } */
-  
-  
+    
