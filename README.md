@@ -10,7 +10,7 @@ To use the Burger app click on this link: [Burger](https://boiling-woodland-7580
 
 
 
-**To check out this site on Github click here: [Burger]().**
+
 
 ![word](https://user-images.githubusercontent.com/38080854/46483631-ff84dd80-c7ac-11e8-9901-447bc9ecc237.png)
 
